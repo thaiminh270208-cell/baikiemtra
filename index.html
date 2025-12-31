@@ -1,199 +1,122 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  color: #2c3e50;
-  line-height: 1.7;
-}
-
-header {
-  background: #c0392b;
-  padding: 15px 0;
-}
-
-nav {
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  max-width: 900px;
-  margin: 30px auto;
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
-
-h1 {
-  text-align: center;
-  color: #c0392b;
-  margin-bottom: 25px;
-}
-
-p {
-  margin-bottom: 15px;
-  text-align: justify;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  color: #777;
-  font-size: 14px;
-}
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Vovinam – Việt Võ Đạo</title>
+  <title>Giới thiệu Vovinam – Việt Võ Đạo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f6fa;
+      color: #2c3e50;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      text-align: center;
+      color: #c0392b;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin: 25px 0 10px;
+      border-left: 5px solid #c0392b;
+      padding-left: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 15px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Trang chủ</a>
-      <a href="lich-su.html">Lịch sử</a>
-      <a href="dac-diem.html">Đặc điểm</a>
-      <a href="y-nghia.html">Ý nghĩa</a>
-    </nav>
-  </header>
-
   <div class="container">
-    <h1>Vovinam – Việt Võ Đạo</h1>
+    <h1>Giới thiệu về Vovinam</h1>
+
+    <h2>1. Vovinam là gì?</h2>
+
+    <img src="vovinam1.jpg" alt="Vovinam Việt Võ Đạo">
 
     <p>
-      Vovinam (Việt Võ Đạo) là môn võ thuật truyền thống của Việt Nam,
-      do võ sư Nguyễn Lộc sáng lập vào năm 1938.
-      Môn võ kết hợp các đòn tay không, vũ khí và kỹ thuật tự vệ,
-      dựa trên nguyên lý <b>Cương – Nhu phối triển</b>.
+      Vovinam (Việt Võ Đạo) là môn võ thuật Việt Nam do Võ sư Nguyễn Lộc sáng lập năm 1938,
+      kết hợp võ thuật truyền thống Việt Nam và tinh hoa các môn phái khác.
+      Môn võ dựa trên nguyên tắc <b>Cương – Nhu Phối Triển</b>, bao gồm các đòn tay không,
+      vũ khí, bài quyền, phản đòn và khóa gỡ, giúp rèn luyện thể chất, tinh thần
+      và khả năng tự vệ.
     </p>
 
-    <!-- Ảnh bạn tự thêm sau -->
-    <!-- <img src="images/vovinam.jpg"> -->
-  </div>
+    <h2>2. Lịch sử hình thành và phát triển</h2>
 
-  <footer>
-    © 2025 – Web giới thiệu Vovinam
-  </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <title>Lịch sử Vovinam</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a href="index.html">Trang chủ</a>
-      <a href="lich-su.html">Lịch sử</a>
-      <a href="dac-diem.html">Đặc điểm</a>
-      <a href="y-nghia.html">Ý nghĩa</a>
-    </nav>
-  </header>
-
-  <div class="container">
-    <h1>Lịch sử hình thành</h1>
+    <img src="vovinam2.jpg" alt="Lịch sử Vovinam">
 
     <p>
-      Vovinam ra đời trong hoàn cảnh đất nước cần một hệ thống võ thuật
-      mang bản sắc dân tộc. Qua nhiều giai đoạn phát triển,
-      môn võ được hoàn thiện về kỹ thuật, triết lý và hệ thống huấn luyện.
+      Vovinam ra đời trong bối cảnh dân tộc Việt Nam cần một hệ thống võ thuật
+      mang bản sắc riêng. Trải qua nhiều giai đoạn phát triển,
+      môn võ đã lan rộng ra gần 70 quốc gia, với hệ thống huấn luyện,
+      đai đẳng và võ phục thống nhất.
+      <h2>3.Đặc điểm</h2>
+
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOJkzuL0Us4zQdqucbSzYIeK8Zmo3h-krvQ&s">
+
+<p>- Cương Nhu Phối Triển: Lấy cây tre làm biểu tượng, mềm dẻo, linh hoạt ứng biến, mạnh mẽ khi cần, dùng lực đòn bẩy để quật ngã đối thủ.</p>
+<p>- Đòn thế đa dạng: Bao gồm đấm, đá, chỏ, gối, phản đòn, khóa gỡ, vật, cũng như sử dụng binh khí (kiếm, đao, côn, quạt).</p>
+<p>- Đòn chân độc đáo: Nổi tiếng với các đòn đá kép, triệt ngã, đòn kẹp cổ bất ngờ.</p>
+<p>- Phát triển kỹ thuật: Từ đòn thế căn bản đến đơn luyện (quyền), đa luyện (song luyện, đối luyện) và cả khí công, ngạnh công, nhuyễn công.</p>
+
+<h2>4.Giá trị</h2>
+
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1bCqJnvZvGYmOYjarMe8M4D06GjX9TVASw&s">
+
+<p>- Tâm sinh lý: Võ đạo Vovinam đề cao "cách mạng tâm thân", coi võ thuật là phương tiện rèn luyện bản thân cả về thể chất lẫn tinh thần, hướng đến lý tưởng cao đẹp.</p>
+<p>- Ứng dụng thực tế: Giúp người tập tự vệ hiệu quả, xử lý tình huống nhanh nhạy, đặc biệt trong môi trường hiện đại. </p>
+
     </p>
   </div>
-
-  <footer>© 2025 – Vovinam</footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <title>Đặc điểm Vovinam</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-</head>
 
-<body>
-  <header>
-    <nav>
-      <a href="index.html">Trang chủ</a>
-      <a href="lich-su.html">Lịch sử</a>
-      <a href="dac-diem.html">Đặc điểm</a>
-      <a href="y-nghia.html">Ý nghĩa</a>
-    </nav>
-  </header>
-
-  <div class="container">
-    <h1>Đặc điểm của Vovinam</h1>
-
-    <p>
-      Vovinam có hệ thống đòn thế phong phú,
-      kết hợp nhuần nhuyễn giữa sức mạnh và sự linh hoạt,
-      chú trọng tính thực chiến và khả năng tự vệ.
-    </p>
-  </div>
-
-  <footer>© 2025 – Vovinam</footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <title>Ý nghĩa Vovinam</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a href="index.html">Trang chủ</a>
-      <a href="lich-su.html">Lịch sử</a>
-      <a href="dac-diem.html">Đặc điểm</a>
-      <a href="y-nghia.html">Ý nghĩa</a>
-    </nav>
-  </header>
-
-  <div class="container">
-    <h1>Ý nghĩa của Vovinam</h1>
-
-    <p>
-      Vovinam không chỉ rèn luyện thể chất mà còn giúp con người
-      trau dồi đạo đức, tinh thần kỷ luật, lòng tự hào dân tộc
-      và ý chí vượt khó trong cuộc sống.
-    </p>
-  </div>
-
-  <footer>© 2025 – Vovinam</footer>
-</body>
-</html>
 
     
+
 
